@@ -1,0 +1,47 @@
+{
+  "name": "Eduardo García",
+  "email": "emumaniacx@gmail.com",
+  "social": {
+    "github": "thewarpaint",
+    "linkedIn": "https://www.linkedin.com/profile/view?id=352389770"
+  },
+  "academic": [
+    {
+      "start": "2006",
+      "end": "2010",
+      "school": "Superior School of Computer Sciences (ESCOM)",
+      "institute": "National Polythecnic Institute",
+      "degree": "B. of Computer Engineering",
+      "degreeStatus":  "Undergraduate, degree in progress",
+      "location": "Mexico City"
+    },
+    {
+      "start": "2003",
+      "end": "2006",
+      "school": "Instituto Fundación Azteca",
+      "degree": "Computer Technician"
+    }
+  ],
+  "experience": [
+    {
+      "start": "2014-06-01",
+      "end": null,
+      "isCurrent": true,
+      "company": "Ooyala",
+      "title": "Frontend Engineer",
+      "location": "Guadalajara, México",
+      "description": "",
+      "link": "http://ooyala.com"
+    },
+    {
+      "start": "2010-07-01",
+      "end": "2014-05-01",
+      "isCurrent": false,
+      "company": "Vinco Orbis Proyectos",
+      "title": "Project Manager",
+      "location": "Guadalajara, México",
+      "description": "",
+      "link": "http://vincoorbis.com"
+    }
+  ]
+}
