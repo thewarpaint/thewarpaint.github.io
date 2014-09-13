@@ -44,6 +44,28 @@
       "link": "http://vincoorbis.com"
     }
   ],
+  "projects": [
+    {
+      "name": "Posti",
+      "description": "Web app to create customizable maps to display branch locations",
+      "url": "http://posti.vincoorbis.com/"
+    },
+    {
+      "name": "¿Dónde hay un cajero?",
+      "description": "Web app to find ATMs in Mexico",
+      "url": "http://dondehayuncajero.com/"
+    },
+    {
+      "name": "Facturito One",
+      "description": "List of electronic invoicing websites for several companies",
+      "url": "http://facturito.com/one/"
+    },
+    {
+      "name": "Hecho en CDMX",
+      "description": "Campaign to identify Mexico City-based startups and apps, and display badges on their websites",
+      "url": "http://hechoencd.mx/"
+    }
+  ],
   "languages": [
     {
       "name": "Spanish",
