@@ -12,7 +12,7 @@
       "school": "Superior School of Computer Sciences (ESCOM)",
       "institute": "National Polythecnic Institute",
       "degree": "B. of Computer Engineering",
-      "degreeStatus":  "Undergraduate, degree in progress",
+      "degreeStatus": "Undergraduate, degree in progress",
       "location": "Mexico City"
     },
     {
@@ -42,6 +42,119 @@
       "location": "Guadalajara, México",
       "description": "",
       "link": "http://vincoorbis.com"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Spanish",
+      "level": "native"
+    },
+    {
+      "name": "English",
+      "level": "intermediate"
+    },
+    {
+      "name": "Italian",
+      "level": "basic"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend development"
+    },
+    {
+      "name": "Backend development"
+    },
+    {
+      "name": "Project management"
+    },
+    {
+      "name": "REST API design"
+    },
+    {
+      "name": "Leadership"
+    },
+    {
+      "name": "User interface"
+    },
+    {
+      "name": "Application architecture"
+    },
+    {
+      "name": "Teamwork"
+    },
+    {
+      "name": "Open source"
+    },
+    {
+      "name": "Agile methodology"
+    },
+    {
+      "name": "Test driven development"
+    },
+    {
+      "name": "Database architecture"
+    },
+    {
+      "name": "Version control and branching models"
+    }
+  ],
+  "technologies": [
+    {
+      "name": "HTML5",
+      "url": "http://en.wikipedia.org/wiki/HTML5"
+    },
+    {
+      "name": "Javascript",
+      "url": "http://en.wikipedia.org/wiki/JavaScript"
+    },
+    {
+      "name": "AngularJS",
+      "url": "http://angularjs.org"
+    },
+    {
+      "name": "CSS3",
+      "url": "http://en.wikipedia.org/wiki/Cascading_Style_Sheets"
+    },
+    {
+      "name": "LESS",
+      "url": "http://lesscss.org/"
+    },
+    {
+      "name": "SASS",
+      "url": "http://sass-lang.com/"
+    },
+    {
+      "name": "Git",
+      "url": "http://git-scm.com/"
+    },
+    {
+      "name": "GitHub",
+      "url": "http://github.com/"
+    },
+    {
+      "name": "Vagrant",
+      "url": "https://www.vagrantup.com/"
+    },
+    {
+      "name": "Sentry",
+      "url": "https://getsentry.com/"
+    },
+    {
+      "name": "PHP",
+      "url": "http://php.net/"
+    },
+    {
+      "name": "Karma",
+      "url": "http://karma-runner.github.io/"
+    },
+    {
+      "name": "Jasmine",
+      "url": "http://jasmine.github.io/"
+    },
+    {
+      "name": "MySQL",
+      "url": "http://www.mysql.com/"
     }
   ]
 }
