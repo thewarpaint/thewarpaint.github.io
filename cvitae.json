@@ -10,18 +10,24 @@
   },
   "academic": [
     {
-      "start": "2006",
-      "end": "2010",
-      "school": "Superior School of Computer Sciences (ESCOM)",
-      "institute": "National Polythecnic Institute",
-      "degree": "B. of Computer Engineering",
+      "start": "2006-08-01",
+      "end": "2010-07-01",
+      "school": {
+        "name": "Superior School of Computer Sciences (ESCOM)",
+        "parentOrganization": "National Polythecnic Institute",
+        "url": "http://www.escom.ipn.mx/"
+      },
+      "degree": "BS in Computer Science, Engineer",
       "degreeStatus": "Undergraduate, degree in progress",
       "location": "Mexico City"
     },
     {
-      "start": "2003",
-      "end": "2006",
-      "school": "Instituto Fundación Azteca",
+      "start": "2003-08-01",
+      "end": "2006-07-01",
+      "school": {
+        "name": "Instituto Fundación Azteca",
+        "url": "http://www.fundacionazteca.org/contenido.aspx?p=planteles"
+      },
       "degree": "Computer Technician"
     }
   ],
