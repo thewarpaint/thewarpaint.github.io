@@ -36,21 +36,27 @@
       "start": "2014-06-01",
       "end": null,
       "isCurrent": true,
-      "company": "Ooyala",
-      "title": "Frontend Engineer",
-      "location": "Guadalajara, México",
-      "description": "",
-      "link": "http://ooyala.com"
+      "company": {
+        "name": "Ooyala",
+        "url": "http://ooyala.com",
+        "linkedInUrl": "https://linkedin.com/company/93902"
+      },
+      "position": "Frontend Engineer",
+      "location": "Guadalajara, Mexico",
+      "description": ""
     },
     {
       "start": "2010-07-01",
       "end": "2014-05-01",
       "isCurrent": false,
-      "company": "Vinco Orbis Proyectos",
-      "title": "Project Manager",
-      "location": "Guadalajara, México",
-      "description": "",
-      "link": "http://vincoorbis.com"
+      "company": {
+        "name": "Vinco Orbis Proyectos",
+        "url": "http://vincoorbis.com",
+        "linkedInUrl": "https://linkedin.com/company/2511778"
+      },
+      "position": "Project Manager",
+      "location": "Mexico City, Mexico",
+      "description": ""
     }
   ],
   "projects": [
