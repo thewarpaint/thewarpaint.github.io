@@ -1,6 +1,9 @@
 {
-  "name": "Eduardo García",
-  "email": "emumaniacx@gmail.com",
+  "personalInfo": {
+    "fullName": "Eduardo García",
+    "email": "emumaniacx@gmail.com",
+    "avatarUrl": "http://i.imgur.com/S4gHgGf.jpg"
+  },
   "social": {
     "github": "thewarpaint",
     "linkedIn": "https://www.linkedin.com/profile/view?id=352389770"
