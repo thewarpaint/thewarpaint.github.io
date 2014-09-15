@@ -171,11 +171,11 @@
     },
     {
       "name": "Vagrant",
-      "url": "https://www.vagrantup.com/"
+      "url": "http://vagrantup.com/"
     },
     {
       "name": "Sentry",
-      "url": "https://getsentry.com/"
+      "url": "http://getsentry.com/"
     },
     {
       "name": "PHP",
@@ -191,7 +191,7 @@
     },
     {
       "name": "MySQL",
-      "url": "http://www.mysql.com/"
+      "url": "http://mysql.com/"
     }
   ]
 }
