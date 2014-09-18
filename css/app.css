@@ -1,0 +1,146 @@
+/* palette */
+.unstyled-list {
+  list-style-type: none;
+  padding: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-top: 0px;
+}
+body {
+  font-family: "Lato", "Helvetica Neue", sans-serif;
+}
+.avatar {
+  border-radius: 50%;
+  width: 148px;
+}
+header {
+  background: url('../images/gdl.jpg') no-repeat no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 180px 0px;
+  text-shadow: black 0px 0px 3px;
+}
+header h1 {
+  font-weight: 900;
+}
+header h2 {
+  font-size: 28px;
+}
+header ul {
+  list-style-type: none;
+  padding: 0px;
+}
+header li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 18px;
+}
+header li i.fa.fa-envelope {
+  font-size: 85%;
+}
+header a,
+header a:hover,
+header a:active,
+header a:focus {
+  color: white;
+}
+header .circle-icon {
+  background-color: #3498db;
+}
+.circle-icon {
+  box-sizing: content-box;
+  border-radius: 50%;
+  text-align: center;
+  text-shadow: none;
+  margin-right: 6px;
+  color: white;
+}
+.circle-icon.circle-small {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+}
+.circle-icon.circle-medium {
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+}
+.period {
+  font-weight: 700;
+  font-size: 24px;
+  color: #bdc3c7;
+  text-align: right;
+  line-height: 1.1;
+}
+.label.label-current {
+  font-size: 14px;
+  color: #2ecc71;
+  border: 1px solid #2ecc71;
+  font-weight: normal;
+}
+#professional-experience,
+#academic-background,
+#complementary-info {
+  margin-top: 60px;
+}
+#professional-experience h2,
+#academic-background h2,
+#complementary-info h2 {
+  position: relative;
+  left: -2.5em;
+  margin-bottom: 30px;
+}
+#professional-experience h2 i,
+#academic-background h2 i,
+#complementary-info h2 i {
+  margin-right: 1.25em;
+}
+#professional-experience h2 i.fa-wrench,
+#academic-background h2 i.fa-wrench,
+#complementary-info h2 i.fa-wrench {
+  font-size: 85%;
+}
+#professional-experience h2 .circle-icon,
+#academic-background h2 .circle-icon,
+#complementary-info h2 .circle-icon {
+  background-color: #e74c3c;
+}
+.section-title i.circle-icon {
+  font-size: 0.7em;
+}
+#skills,
+#technologies,
+#languages {
+  margin-bottom: 30px;
+}
+#skills ul,
+#technologies ul,
+#languages ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.subtitle {
+  text-align: right;
+}
+#avatar-container {
+  text-align: right;
+}
+#personal-info h2,
+#personal-info ul {
+  margin-top: 20px;
+}
+.job,
+.level {
+  margin-bottom: 30px;
+}
+.job.last-child,
+.level.last-child {
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=app.css.map */
