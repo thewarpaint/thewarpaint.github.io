@@ -44,20 +44,20 @@
     <div class="container">
       <section id="professional-experience">
         <div class="row">
-          <div class="col-md-9 col-md-offset-3">
+          <div class="col-sm-9 col-sm-offset-3">
             <h2 class="section-title"><i class="fa fa-fw fa-briefcase circle-icon circle-medium"></i>
               Professional experience</h2>
           </div>
         </div>
 
         <div class="job row" ng-repeat="job in cvitae.experience">
-          <div class="period col-md-3">
+          <div class="period col-sm-3">
             <div>
               {{ job.start | date:'yyyy' }} <span ng-if="job.end">— {{ job.end | date:'yyyy' }}</span>
             </div>
             <span ng-if="job.isCurrent" class="label label-current">current</span>
           </div>
-          <div class="col-md-9">
+          <div class="col-sm-9">
             <h3>
               <a ng-href="{{ job.company.url }}">{{ job.company.name }}</a>
               <a ng-if="job.company.linkedInUrl" ng-href="{{ job.company.linkedInUrl }}">
@@ -71,18 +71,18 @@
       
       <section id="academic-background">
         <div class="row">
-          <div class="col-md-9 col-md-offset-3">
+          <div class="col-sm-9 col-sm-offset-3">
             <h2 class="section-title"><i class="fa fa-fw fa-graduation-cap circle-icon circle-medium"></i>
               Academic background</h2>
           </div>
         </div>
 
         <div class="level row" ng-repeat="level in cvitae.academic">
-          <div class="period col-md-3">
+          <div class="period col-sm-3">
             {{ level.start | date:'yyyy' }} <span ng-if="level.end">— {{ level.end | date:'yyyy' }}</span>
               <span ng-if="level.isCurrent" class="label label-current">current</span>
           </div>
-          <div class="col-md-9">
+          <div class="col-sm-9">
             <h3><a ng-href="{{ level.school.url }}">{{ level.school.name }}</a></h3>
             <p ng-if="level.school.parentOrganization">{{ level.school.parentOrganization }}</p>
             <p>{{ level.degree }}</p>
@@ -93,17 +93,17 @@
 
       <section id="complementary-info">
         <div class="row">
-          <div class="col-md-9 col-md-offset-3">
+          <div class="col-sm-9 col-sm-offset-3">
             <h2><i class="fa fa-fw fa-wrench circle-icon circle-medium"></i> Complementary info</h2>
           </div>
         </div>
 
         <section id="skills" class="row">
-          <div class="col-md-3 subtitle">
+          <div class="col-sm-3 subtitle">
             <h3>Skills</h3>
           </div>
 
-          <div class="col-md-9">
+          <div class="col-sm-9">
             <ul>
               <li ng-repeat="skill in cvitae.skills">{{ skill.name }}</li>
             </ul>
@@ -111,11 +111,11 @@
         </section>
 
         <section id="technologies" class="row">
-          <div class="col-md-3 subtitle">
+          <div class="col-sm-3 subtitle">
             <h3>Technologies</h3>
           </div>
 
-          <div class="col-md-9">
+          <div class="col-sm-9">
             <ul>
               <li ng-repeat="technology in cvitae.technologies">
                 <a ng-href="{{ technology.url }}">{{ technology.name }}</a>
@@ -125,11 +125,11 @@
         </section>
 
         <section id="languages" class="row">
-          <div class="col-md-3 subtitle">
+          <div class="col-sm-3 subtitle">
             <h3>Languages</h3>
           </div>
 
-          <div class="col-md-9">
+          <div class="col-sm-9">
             <ul>
               <li ng-repeat="language in cvitae.languages">{{ language.name }} 
                 <span class="label label-default">{{ language.level }}</span></li>
