@@ -48,8 +48,9 @@ header {
   background: url('../images/gdl.jpg') no-repeat no-repeat center center;
   background-size: cover;
   color: white;
-  padding: 180px 0px;
+  padding: 90px 0px;
   text-shadow: black 0px 0px 3px;
+  text-align: center;
   
   h1 {
     font-weight: 900;
@@ -165,10 +166,6 @@ header {
   text-align: right;
 }
 
-#avatar-container {
-  text-align: right;
-}
-
 #personal-info {
   h2, ul {
     margin-top: 20px;
@@ -180,5 +177,28 @@ header {
   
   &.last-child {
     margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  header {
+    li {
+      margin-bottom: 15px;
+    }
+  }
+
+  #avatar-container {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  header {
+    text-align: left;
+    padding: 180px 0px;
+  }
+
+  #avatar-container {
+   text-align: right;
   }
 }
