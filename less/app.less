@@ -48,9 +48,9 @@ header {
   background: url('../images/gdl.jpg') no-repeat no-repeat center center;
   background-size: cover;
   color: white;
-  padding: 90px 0px;
   text-shadow: black 0px 0px 3px;
   text-align: center;
+  position: relative;
   
   h1 {
     font-weight: 900;
@@ -83,12 +83,18 @@ header {
   a {
     // text-decoration: underline;
   }
+
+  > .container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
   
   .circle-icon {
     background-color: @palette-peter-river;
   }
 }
 
+@circle-xsmall-size: 24px;
 @circle-small-size: 32px;
 @circle-medium-size: 42px;
 
@@ -100,6 +106,12 @@ header {
   margin-right: 6px;
   color: white;
 
+  &.circle-xsmall {
+    width: @circle-xsmall-size;
+    height: @circle-xsmall-size;
+    line-height: @circle-xsmall-size;
+  }
+
   &.circle-small {
     width: @circle-small-size;
     height: @circle-small-size;
@@ -110,6 +122,12 @@ header {
     width: @circle-medium-size;
     height: @circle-medium-size;
     line-height: @circle-medium-size;
+  }
+
+  &.circle-transparent {
+    background-color: transparent;
+    border: 1px solid white;
+    text-shadow: inherit;
   }
 }
 
@@ -195,10 +213,20 @@ header {
 @media (min-width: 992px) {
   header {
     text-align: left;
-    padding: 180px 0px;
+
+    > .container {
+      padding-top: 180px;
+      padding-bottom: 180px;
+    }
   }
 
   #avatar-container {
    text-align: right;
   }
+}
+
+#image-attribution {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
 }
