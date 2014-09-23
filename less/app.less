@@ -225,8 +225,18 @@ header {
   }
 }
 
-#image-attribution {
+@relative-padding: 15px;
+
+#actions, #image-attribution {
   position: absolute;
+}
+
+#actions {
+  top: @relative-padding;
+  right: @relative-padding;
+}
+
+#image-attribution {
   bottom: 15px;
   right: 15px;
 }

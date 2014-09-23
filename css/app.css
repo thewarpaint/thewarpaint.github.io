@@ -175,8 +175,15 @@ header .circle-icon {
     text-align: right;
   }
 }
+#actions,
 #image-attribution {
   position: absolute;
+}
+#actions {
+  top: 15px;
+  right: 15px;
+}
+#image-attribution {
   bottom: 15px;
   right: 15px;
 }
