@@ -141,7 +141,6 @@ header {
   font-weight: 700;
   font-size: 24px;
   color: @palette-silver;
-  text-align: right;
   line-height: 1.1;
 }
 
@@ -181,10 +180,6 @@ header {
   ul {
     .unstyled-list();
   }
-}
-
-.subtitle {
-  text-align: right;
 }
 
 #personal-info {
@@ -231,16 +226,27 @@ header {
   color: @level-basic;
 }
 
-@media (min-width: 767px) {
+
+@media (max-width: 767px) {
+  .period {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
   #professional-experience, #academic-background, #complementary-info {
     h2 {
       margin-bottom: 30px;
 
       i {
         position: absolute;
-        left: -2.75em;
+        left: -60px;
       }
     }
+  }
+
+  .period, .subtitle {
+    text-align: right;
   }
 }
 
