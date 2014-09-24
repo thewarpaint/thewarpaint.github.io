@@ -90,7 +90,6 @@ header .circle-icon {
   font-weight: 700;
   font-size: 24px;
   color: #bdc3c7;
-  text-align: right;
   line-height: 1.1;
 }
 .label.label-current {
@@ -134,9 +133,6 @@ header .circle-icon {
   list-style-type: none;
   padding: 0px;
 }
-.subtitle {
-  text-align: right;
-}
 #personal-info h2,
 #personal-info ul {
   margin-top: 20px;
@@ -177,7 +173,12 @@ header .circle-icon {
   border-color: #2ecc71;
   color: #2ecc71;
 }
-@media (min-width: 767px) {
+@media (max-width: 767px) {
+  .period {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 768px) {
   #professional-experience h2,
   #academic-background h2,
   #complementary-info h2 {
@@ -187,7 +188,11 @@ header .circle-icon {
   #academic-background h2 i,
   #complementary-info h2 i {
     position: absolute;
-    left: -2.75em;
+    left: -60px;
+  }
+  .period,
+  .subtitle {
+    text-align: right;
   }
 }
 @media (max-width: 991px) {
