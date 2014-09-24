@@ -90,17 +90,11 @@ header .circle-icon {
 #complementary-info {
   margin-top: 60px;
 }
-#professional-experience h2,
-#academic-background h2,
-#complementary-info h2 {
-  position: relative;
-  left: -2.5em;
-  margin-bottom: 30px;
-}
 #professional-experience h2 i,
 #academic-background h2 i,
 #complementary-info h2 i {
-  margin-right: 1.25em;
+  position: relative;
+  top: -0.2em;
 }
 #professional-experience h2 i.fa-wrench,
 #academic-background h2 i.fa-wrench,
@@ -168,6 +162,19 @@ header .circle-icon {
 .label-basic {
   border-color: #2ecc71;
   color: #2ecc71;
+}
+@media (min-width: 767px) {
+  #professional-experience h2,
+  #academic-background h2,
+  #complementary-info h2 {
+    margin-bottom: 30px;
+  }
+  #professional-experience h2 i,
+  #academic-background h2 i,
+  #complementary-info h2 i {
+    position: absolute;
+    left: -2.75em;
+  }
 }
 @media (max-width: 991px) {
   header li {
