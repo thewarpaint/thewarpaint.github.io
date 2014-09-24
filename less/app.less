@@ -138,13 +138,10 @@ header {
   margin-top: 60px;
   
   h2 {
-    position: relative;
-    left: -2.5em;
-    margin-bottom: 30px;
-    
     i {
-      margin-right: 1.25em;
-      
+      position: relative;
+      top: -0.2em;
+
       &.fa-wrench {
         font-size: 85%;
       }
@@ -214,6 +211,19 @@ header {
 .label-basic {
   border-color: @level-basic;
   color: @level-basic;
+}
+
+@media (min-width: 767px) {
+  #professional-experience, #academic-background, #complementary-info {
+    h2 {
+      margin-bottom: 30px;
+
+      i {
+        position: absolute;
+        left: -2.75em;
+      }
+    }
+  }
 }
 
 @media (max-width: 991px) {
