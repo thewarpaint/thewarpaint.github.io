@@ -141,6 +141,34 @@ header .circle-icon {
 .level.last-child {
   margin-bottom: 0px;
 }
+.label-native,
+.label-expert,
+.label-advanced,
+.label-intermediate,
+.label-basic {
+  border: 1px solid;
+  background-color: white;
+}
+.label-native {
+  border-color: #34495e;
+  color: #34495e;
+}
+.label-expert {
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.label-advanced {
+  border-color: #3498db;
+  color: #3498db;
+}
+.label-intermediate {
+  border-color: #1abc9c;
+  color: #1abc9c;
+}
+.label-basic {
+  border-color: #2ecc71;
+  color: #2ecc71;
+}
 @media (max-width: 991px) {
   header li {
     margin-bottom: 15px;
