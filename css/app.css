@@ -104,17 +104,11 @@ header .circle-icon {
 #complementary-info {
   margin-top: 60px;
 }
-#professional-experience h2,
-#academic-background h2,
-#complementary-info h2 {
-  position: relative;
-  left: -2.5em;
-  margin-bottom: 30px;
-}
 #professional-experience h2 i,
 #academic-background h2 i,
 #complementary-info h2 i {
-  margin-right: 1.25em;
+  position: relative;
+  top: -0.2em;
 }
 #professional-experience h2 i.fa-wrench,
 #academic-background h2 i.fa-wrench,
@@ -154,6 +148,47 @@ header .circle-icon {
 .job.last-child,
 .level.last-child {
   margin-bottom: 0px;
+}
+.label-native,
+.label-expert,
+.label-advanced,
+.label-intermediate,
+.label-basic {
+  border: 1px solid;
+  background-color: white;
+}
+.label-native {
+  border-color: #34495e;
+  color: #34495e;
+}
+.label-expert {
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.label-advanced {
+  border-color: #3498db;
+  color: #3498db;
+}
+.label-intermediate {
+  border-color: #1abc9c;
+  color: #1abc9c;
+}
+.label-basic {
+  border-color: #2ecc71;
+  color: #2ecc71;
+}
+@media (min-width: 767px) {
+  #professional-experience h2,
+  #academic-background h2,
+  #complementary-info h2 {
+    margin-bottom: 30px;
+  }
+  #professional-experience h2 i,
+  #academic-background h2 i,
+  #complementary-info h2 i {
+    position: absolute;
+    left: -2.75em;
+  }
 }
 @media (max-width: 991px) {
   header li {
