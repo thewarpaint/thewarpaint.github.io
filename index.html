@@ -33,28 +33,53 @@
       <div class="container">
         <div class="row">
           <div id="avatar-container" class="col-md-3">
-            <img class="avatar" ng-src="{{ cvitae.personalInfo.avatarUrl }}" alt="{{ cvitae.personalInfo.fullName }}">
+            <img class="avatar" ng-src="{{ cvitae.personalInfo.avatarUrl }}"
+              alt="{{ cvitae.personalInfo.fullName }}">
           </div>
           <div id="personal-info" class="col-md-9">
             <h1>{{ cvitae.personalInfo.fullName }}</h1>
             
-            <h2>{{ cvitae.experience[0].position }} at 
-              <a href="{{ cvitae.experience[0].company.url }}">{{ cvitae.experience[0].company.name }}</a></h2>
+            <h2>
+              {{ cvitae.experience[0].position }} at
+              <a href="{{ cvitae.experience[0].company.url }}">{{ cvitae.experience[0].company.name }}</a>
+            </h2>
               
             <ul>
-              <li><i class="fa fa-map-marker circle-icon circle-small"></i> {{ cvitae.experience[0].location }}</li>
-              <li><i class="fa fa-github circle-icon circle-small"></i>
-                <a ng-href="http://github.com/{{ cvitae.social.github }}">@{{ cvitae.social.github }}</a></li>
-              <li><i class="fa fa-envelope circle-icon circle-small"></i>
-                <a ng-href="mailto:{{ cvitae.personalInfo.email }}">{{ cvitae.personalInfo.email }}</a></li>
+              <li>
+                <i class="fa fa-map-marker circle-icon circle-small"></i> {{ cvitae.experience[0].location }}
+              </li>
+              <li>
+                <a ng-href="http://github.com/{{ cvitae.social.github }}" target="blank">
+                  <i class="fa fa-github circle-icon circle-small"></i>
+                </a>
+              </li>
+              <li>
+                <a ng-href="{{ cvitae.social.linkedIn }}" target="blank">
+                  <i class="fa fa-linkedin circle-icon circle-small"></i>
+                </a>
+              </li>
+              <li>
+                <a ng-href="mailto:{{ cvitae.personalInfo.email }}" target="blank">
+                  <i class="fa fa-envelope circle-icon circle-small"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
 
+      <div id="actions">
+        <a href="https://github.com/thewarpaint/thewarpaint.github.io" target="blank">
+          <i class="fa fa-code circle-icon circle-small circle-transparent"></i>
+        </a>
+        <i class="fa fa-share-alt circle-icon circle-small circle-transparent"></i>
+      </div>
+
       <div id="image-attribution">
-        <i class="fa fa-camera circle-icon circle-small circle-transparent"></i>
-        <a ng-href="{{ cvitae.cover.url }}">{{ cvitae.cover.attribution }}</a>
+        <a ng-href="{{ cvitae.cover.url }}">
+          <i class="fa fa-camera circle-icon circle-small circle-transparent"></i>
+          {{ cvitae.cover.attribution }}
+        </a>
       </div>
     </header>
     

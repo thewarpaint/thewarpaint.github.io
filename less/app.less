@@ -84,10 +84,7 @@ header {
   
   a, a:hover, a:active, a:focus {
     color: white;
-  }
-    
-  a {
-    // text-decoration: underline;
+    text-decoration: none;
   }
 
   > .container {
@@ -277,8 +274,18 @@ header {
   }
 }
 
-#image-attribution {
+@relative-padding: 15px;
+
+#actions, #image-attribution {
   position: absolute;
+}
+
+#actions {
+  top: @relative-padding;
+  right: @relative-padding;
+}
+
+#image-attribution {
   bottom: 15px;
   right: 15px;
 }

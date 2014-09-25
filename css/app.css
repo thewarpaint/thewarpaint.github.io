@@ -50,6 +50,7 @@ header a:hover,
 header a:active,
 header a:focus {
   color: white;
+  text-decoration: none;
 }
 header > .container {
   padding-top: 90px;
@@ -215,8 +216,15 @@ header .circle-icon {
     text-align: right;
   }
 }
+#actions,
 #image-attribution {
   position: absolute;
+}
+#actions {
+  top: 15px;
+  right: 15px;
+}
+#image-attribution {
   bottom: 15px;
   right: 15px;
 }
