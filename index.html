@@ -21,16 +21,21 @@
       <div class="container">
         <div class="row">
           <div id="avatar-container" class="col-md-3">
-            <img class="avatar" ng-src="{{ cvitae.personalInfo.avatarUrl }}" alt="{{ cvitae.personalInfo.fullName }}">
+            <img class="avatar" ng-src="{{ cvitae.personalInfo.avatarUrl }}"
+              alt="{{ cvitae.personalInfo.fullName }}">
           </div>
           <div id="personal-info" class="col-md-9">
             <h1>{{ cvitae.personalInfo.fullName }}</h1>
             
-            <h2>{{ cvitae.experience[0].position }} at 
-              <a href="{{ cvitae.experience[0].company.url }}">{{ cvitae.experience[0].company.name }}</a></h2>
+            <h2>
+              {{ cvitae.experience[0].position }} at
+              <a href="{{ cvitae.experience[0].company.url }}">{{ cvitae.experience[0].company.name }}</a>
+            </h2>
               
             <ul>
-              <li><i class="fa fa-map-marker circle-icon circle-small"></i> {{ cvitae.experience[0].location }}</li>
+              <li>
+                <i class="fa fa-map-marker circle-icon circle-small"></i> {{ cvitae.experience[0].location }}
+              </li>
               <li>
                 <a ng-href="http://github.com/{{ cvitae.social.github }}" target="blank">
                   <i class="fa fa-github circle-icon circle-small"></i>
@@ -55,6 +60,7 @@
         <a href="https://github.com/thewarpaint/thewarpaint.github.io" target="blank">
           <i class="fa fa-code circle-icon circle-small circle-transparent"></i>
         </a>
+        <i class="fa fa-share-alt circle-icon circle-small circle-transparent"></i>
       </div>
 
       <div id="image-attribution">
