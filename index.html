@@ -31,10 +31,16 @@
               
             <ul>
               <li><i class="fa fa-map-marker circle-icon circle-small"></i> {{ cvitae.experience[0].location }}</li>
-              <li><i class="fa fa-github circle-icon circle-small"></i>
-                <a ng-href="http://github.com/{{ cvitae.social.github }}">@{{ cvitae.social.github }}</a></li>
-              <li><i class="fa fa-envelope circle-icon circle-small"></i>
-                <a ng-href="mailto:{{ cvitae.personalInfo.email }}">{{ cvitae.personalInfo.email }}</a></li>
+              <li>
+                <a ng-href="http://github.com/{{ cvitae.social.github }}" target="blank">
+                  <i class="fa fa-github circle-icon circle-small"></i>
+                </a>
+              </li>
+              <li>
+                <a ng-href="mailto:{{ cvitae.personalInfo.email }}" target="blank">
+                  <i class="fa fa-envelope circle-icon circle-small"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -47,8 +53,10 @@
       </div>
 
       <div id="image-attribution">
-        <i class="fa fa-camera circle-icon circle-small circle-transparent"></i>
-        <a ng-href="{{ cvitae.cover.url }}">{{ cvitae.cover.attribution }}</a>
+        <a ng-href="{{ cvitae.cover.url }}">
+          <i class="fa fa-camera circle-icon circle-small circle-transparent"></i>
+          {{ cvitae.cover.attribution }}
+        </a>
       </div>
     </header>
     
