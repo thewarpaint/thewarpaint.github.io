@@ -1,0 +1,7 @@
+#actions, #image-attribution, .social-linked-in {
+  display: none;
+}
+
+a:link:after, a:visited:after {  
+  content: attr(data-print-content);
+}

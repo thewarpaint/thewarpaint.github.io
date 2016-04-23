@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" type="text/css">
     <link rel="stylesheet" href="css/app.css" type="text/css">
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print">
 
     <script src="https://code.angularjs.org/1.2.16/angular.min.js"></script>
     <script src="app/app.js"></script>
@@ -49,17 +50,19 @@
                 <i class="fa fa-map-marker circle-icon circle-small"></i> {{ cvitae.experience[0].location }}
               </li>
               <li>
-                <a ng-href="http://github.com/{{ cvitae.social.github }}" target="blank">
+                <a ng-href="http://github.com/{{ cvitae.social.github }}" target="blank"
+                  data-print-content="@{{ cvitae.social.github }}" class="social-github">
                   <i class="fa fa-github circle-icon circle-small"></i>
                 </a>
               </li>
               <li>
-                <a ng-href="{{ cvitae.social.linkedIn }}" target="blank">
+                <a ng-href="{{ cvitae.social.linkedIn }}" target="blank" class="social-linked-in">
                   <i class="fa fa-linkedin circle-icon circle-small"></i>
                 </a>
               </li>
               <li>
-                <a ng-href="mailto:{{ cvitae.personalInfo.email }}" target="blank">
+                <a ng-href="mailto:{{ cvitae.personalInfo.email }}" target="blank"
+                  data-print-content="{{ cvitae.personalInfo.email }}" class="social-email">
                   <i class="fa fa-envelope circle-icon circle-small"></i>
                 </a>
               </li>
@@ -69,6 +72,10 @@
       </div>
 
       <div id="actions">
+        <a href="" target="blank">
+          <i class="fa fa-print circle-icon circle-small circle-transparent"></i>
+        </a>
+
         <a href="https://github.com/thewarpaint/thewarpaint.github.io" target="blank">
           <i class="fa fa-code circle-icon circle-small circle-transparent"></i>
         </a>
