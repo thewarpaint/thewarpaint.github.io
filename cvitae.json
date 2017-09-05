@@ -1,7 +1,7 @@
 {
   "personalInfo": {
     "fullName": "Eduardo García",
-    "email": "emumaniacx@gmail.com",
+    "email": "eduardogarcia.xyz@gmail.com",
     "avatarUrl": "http://i.imgur.com/S4gHgGf.jpg"
   },
   "cover": {
@@ -37,9 +37,22 @@
   ],
   "experience": [
     {
-      "start": "2014-06-01",
+      "start": "2016-10-18",
       "end": null,
       "isCurrent": true,
+      "company": {
+        "name": "eSailors",
+        "url": "https://esailors.de",
+        "linkedInUrl": "https://linkedin.com/company/1797349"
+      },
+      "position": "Frontend Engineer",
+      "location": "Hamburg, Germany",
+      "description": ""
+    },
+    {
+      "start": "2014-06-01",
+      "end": "2016-10-07",
+      "isCurrent": false,
       "company": {
         "name": "Ooyala",
         "url": "http://ooyala.com",
